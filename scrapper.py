@@ -1,18 +1,20 @@
 from urllib.request import urlopen
 from bs4 import BeautifulSoup
 import pandas as pd
+import pymongo
+from pymongo import MongoClient
 
-def main(soup, period, regions, has_info):
+def main(soup, period, regions, documents):
     if soup == None:
         init()
     elif period == None:
         get_period(soup)
     elif regions == None:
         get_regions(soup, period)
-    elif has_info == False:
+    elif documents == False:
         get_info(soup, period, regions)
     else:
-        send_info(regions)
+        send_info(documents)
 
 def init():
     url = "http://qualipraia.cetesb.sp.gov.br/qualidade-da-praia/"
@@ -45,6 +47,7 @@ def get_regions(soup, period):
     main(soup, period, regions, False)
 
 def get_info(soup, period, regions):
+    documents = []
     print("REGIÕES:")
     for macro in regions:
         print(f"\n>> {macro['name']} <<")
@@ -56,11 +59,21 @@ def get_info(soup, period, regions):
                 micro['local'] = row.findAll('td')[1].get_text().strip()
                 micro['quality'] = row.findAll('td')[2].get_text().strip()
                 print(f"  + {micro['beach']} ({micro['local']}) => {micro['quality']}")
+                document = {'macro':macro['name'], 'micro':micro['name'], 'beach':micro['beach'], 'local':micro['local'], 'quality':micro['quality']}
+                documents.append(document)
             print("\n")
     print('------------------------------')
+    main(soup, period, regions, documents)
 
-def send_info(regions):
-    print("top")
+def send_info(documents):
+    client = MongoClient('mongodb://user:password@ds155577.mlab.com:55577/cetesb-peg')
+    db = client['cetesb-peg']
+    regions = db.regions
+    del_result = regions.delete_many({})
+    print(f"{del_result.deleted_count} registros apagados")
+    result = regions.insert_many(documents)
+    print(f"{regions.count()} registros inseridos")
+    
 
 if __name__ == "__main__":
     main(None, None, None, False)
