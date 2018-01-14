@@ -3,6 +3,7 @@ from bs4 import BeautifulSoup
 import pandas as pd
 import pymongo
 from pymongo import MongoClient
+import secret
 
 def main(soup, period, regions, documents):
     if soup == None:
@@ -66,7 +67,8 @@ def get_info(soup, period, regions):
     main(soup, period, regions, documents)
 
 def send_info(documents):
-    client = MongoClient('mongodb://user:password@ds155577.mlab.com:55577/cetesb-peg')
+    uri = f"mongodb://{secret.username}:{secret.password}@ds155577.mlab.com:55577/cetesb-peg"
+    client = MongoClient(uri)
     db = client['cetesb-peg']
     regions = db.regions
     del_result = regions.delete_many({})
