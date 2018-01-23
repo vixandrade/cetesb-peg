@@ -12,10 +12,10 @@ console.log(secret.username);
 console.log(secret.password);
 mongoose.connect('mongodb://' + secret.username + ':' + secret.password + '@ds155577.mlab.com:55577/cetesb-peg'); 
 
-var User = require('./models/userModel');
+var Region = require('./models/regionModel');
 
 var index = require('./routes/index');
-var usersApiV1 = require('./routes/api/v1/users');
+var regionsApiV1 = require('./routes/api/v1/regions');
 
 var app = express();
 
@@ -32,7 +32,7 @@ app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', index);
-app.use('/api/v1/users', usersApiV1);
+app.use('/api/v1/regions', regionsApiV1);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {

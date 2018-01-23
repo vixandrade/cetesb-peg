@@ -1,33 +1,33 @@
 var mongoose = require('mongoose');
-var User = require('../../../models/userModel');
+var Region = require('../../../models/regionModel');
 
 exports.index = function(req, res) {
-    User.find({}, function(err, user) {
+    Region.find({}, function(err, region) {
         if (err)
             res.send(err);    
-        res.json(user);
+        res.json(region);
     });
 };
 
 exports.create = function(req, res) {
-    var new_user = new User(req.body);
-    new_user.save(function(err, user) {
+    var new_user = new Region(req.body);
+    new_user.save(function(err, region) {
         if (err)
             res.send(err);
-        res.json(user);
+        res.json(region);
     });
 };
 
 exports.read = function(req, res) {
-    User.findById(req.params.userId, function(err, user) {
+    Region.findById(req.params.userId, function(err, region) {
         if (err)
             res.send(err);
-        res.json(user);
+        res.json(region);
     });
 };
 
 exports.delete = function(req, res) {
-    User.remove({
+    Region.remove({
         _id: req.params.userId
     }, function(err, user) {
         if (err)
