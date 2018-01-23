@@ -60,3 +60,4 @@ typings/
 .vscode
 secret.py
 __pycache__
+secret.js
