@@ -160,148 +160,148 @@
       "longitude":-45.3504045
    },
    "LAGOA AZUL":{
-      "latitude":123,
-      "longitude":456
+      "latitude":-23.622270,
+      "longitude":-45.356935
    },
    "MARTIM DE SÁ":{
-      "latitude":123,
-      "longitude":456
+      "latitude":-23.627492,
+      "longitude":-45.382461
    },
    "PRAINHA":{
-      "latitude":123,
-      "longitude":456
+      "latitude":-23.630642,
+      "longitude":-45.390327
    },
    "CENTRO":{
-      "latitude":123,
-      "longitude":456
+      "latitude":-23.627661,
+      "longitude":-45.415250
    },
    "INDAIÁ":{
-      "latitude":123,
-      "longitude":456
+      "latitude":-23.636776,
+      "longitude":-45.420468
    },
    "PAN BRASIL":{
-      "latitude":123,
-      "longitude":456
+      "latitude":-23.649361,
+      "longitude":-45.426181
    },
    "PALMEIRAS":{
-      "latitude":123,
-      "longitude":456
+      "latitude":-23.669948,
+      "longitude":-45.431494
    },
    "PORTO NOVO":{
-      "latitude":123,
-      "longitude":456
+      "latitude":-23.695750,
+      "longitude":-45.429616
    },
    "CIGARRAS":{
-      "latitude":123,
-      "longitude":456
+      "latitude":-23.730049,
+      "longitude":-45.399663
    },
    "SÃO FRANCISCO":{
-      "latitude":123,
-      "longitude":456
+      "latitude":-23.759538,
+      "longitude":-45.409646
    },
    "ARRASTÃO":{
-      "latitude":123,
-      "longitude":456
+      "latitude":-23.771594,
+      "longitude":-45.402471
    },
    "PONTAL DA CRUZ":{
-      "latitude":123,
-      "longitude":456
+      "latitude":-23.780656,
+      "longitude":-45.397043
    },
    "DESERTA":{
-      "latitude":123,
-      "longitude":456
+      "latitude":-23.785922,
+      "longitude":-45.398559
    },
    "PORTO GRANDE":{
-      "latitude":123,
-      "longitude":456
+      "latitude":-23.798243,
+      "longitude":-45.399023
    },
    "PRETA DO NORTE":{
-      "latitude":123,
-      "longitude":456
+      "latitude":-23.821147,
+      "longitude":-45.410763
    },
    "BAREQUEÇABA":{
-      "latitude":123,
-      "longitude":456
+      "latitude":-23.826881,
+      "longitude":-45.436962
    },
    "GUAECÁ":{
-      "latitude":123,
-      "longitude":456
+      "latitude":-23.821729,
+      "longitude":-45.458211
    },
    "TOQUE-TOQUE GRANDE":{
-      "latitude":123,
-      "longitude":456
+      "latitude":-23.833938,
+      "longitude":-45.511043
    },
    "TOQUE-TOQUE PEQUENO":{
-      "latitude":123,
-      "longitude":456
+      "latitude":-23.820091,
+      "longitude":-45.533329
    },
    "SANTIAGO":{
-      "latitude":123,
-      "longitude":456
+      "latitude":-23.809486,
+      "longitude":-45.543114
    },
    "PAÚBA":{
-      "latitude":123,
-      "longitude":456
+      "latitude":-23.802350,
+      "longitude":-45.552658
    },
    "MARESIAS - PRAÇA DO SURF":{
-      "latitude":123,
-      "longitude":456
+      "latitude":-23.791738,
+      "longitude":-45.561739
    },
    "MARESIAS - TRAVESSA QUINZE":{
-      "latitude":123,
-      "longitude":456
+      "latitude":-23.791652,
+      "longitude":-45.580231
    },
    "BOIÇUCANGA":{
-      "latitude":123,
-      "longitude":456
+      "latitude":-23.784425,
+      "longitude":-45.629178
    },
    "CAMBURIZINHO":{
-      "latitude":123,
-      "longitude":456
+      "latitude":-23.777305,
+      "longitude":-45.644216
    },
    "CAMBURI":{
-      "latitude":123,
-      "longitude":456
+      "latitude":-23.777782,
+      "longitude":-45.650802
    },
    "BALEIA":{
-      "latitude":123,
-      "longitude":456
+      "latitude":-23.774774,
+      "longitude":-45.670785
    },
    "SAÍ":{
-      "latitude":123,
-      "longitude":456
+      "latitude":-23.776266,
+      "longitude":-45.693722
    },
    "PRETA":{
-      "latitude":123,
-      "longitude":456
+      "latitude":-23.772003,
+      "longitude":-45.714412
    },
    "JUQUEÍ-TRAV. SIMÃO FAUSTINO":{
-      "latitude":123,
-      "longitude":456
+      "latitude":-23.769563,
+      "longitude":-45.726323
    },
    "JUQUEÍ-R. CRISTIANA":{
-      "latitude":123,
-      "longitude":456
+      "latitude":-23.767166,
+      "longitude":-45.743052
    },
    "UNA":{
-      "latitude":123,
-      "longitude":456
+      "latitude":-23.762261,
+      "longitude":-45.768177
    },
    "ENGENHO":{
-      "latitude":123,
-      "longitude":456
+      "latitude":-23.764214,
+      "longitude":-45.782212
    },
    "JURÉIA DO NORTE":{
-      "latitude":123,
-      "longitude":456
+      "latitude":-23.765376,
+      "longitude":-45.787935
    },
    "BORACÉIA":{
-      "latitude":123,
-      "longitude":456
+      "latitude":-23.755969,
+      "longitude":-45.823087
    },
    "BORACÉIA - RUA CUBATÃO":{
-      "latitude":123,
-      "longitude":456
+      "latitude":-23.756774,
+      "longitude":-45.852021
    },
    "ARMAÇÃO":{
       "latitude":123,
