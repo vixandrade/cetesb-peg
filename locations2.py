@@ -604,51 +604,51 @@
       "longitude":-46.8242994
    },
    "ESTÂNCIA BALNEÁRIA":{
-      "latitude":123,
-      "longitude":456
+      "latitude":-24.172338,
+      "longitude":-46.761430
    },
    "JARDIM SÃO FERNANDO":{
-      "latitude":123,
-      "longitude":456
+      "latitude":-24.223632,
+      "longitude":-46.854374
    },
    "BALNEÁRIO JD REGINA":{
-      "latitude":123,
-      "longitude":456
+      "latitude":-24.228671,
+      "longitude":-46.862763
    },
    "BALNEÁRIO GAIVOTA":{
-      "latitude":123,
-      "longitude":456
+      "latitude":-24.2380014,
+      "longitude":-46.8955618
    },
    "ICARAÍBA":{
-      "latitude":123,
-      "longitude":456
+      "latitude":-24.281609,
+      "longitude":-46.943652
    },
    "PARQUE TURÍSTICO":{
-      "latitude":123,
-      "longitude":456
+      "latitude":-24.296370,
+      "longitude":-46.963436
    },
    "BALN. S. J. BATISTA":{
-      "latitude":123,
-      "longitude":456
+      "latitude":-24.310607,
+      "longitude":-46.979632
    },
    "PERUÍBE-AV. SÃO JOÃO":{
-      "latitude":123,
-      "longitude":456
+      "latitude":-24.324854,
+      "longitude":-46.994717
    },
    "GUARAÚ":{
-      "latitude":123,
-      "longitude":456
+      "latitude":-24.368471,
+      "longitude":-47.011798
    },
    "JURÉIA":{
-      "latitude":123,
-      "longitude":456
+      "latitude":-23.7657549,
+      "longitude":-45.7901691
    },
    "BALNEÁRIO ADRIANA":{
-      "latitude":123,
-      "longitude":456
+      "latitude":-24.737678,
+      "longitude":-47.527759
    },
    "PONTAL":{
-      "latitude":123,
-      "longitude":456
+      "latitude":-25.050932,
+      "longitude":-47.886931
    }
 }
