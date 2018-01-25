@@ -304,304 +304,304 @@
       "longitude":-45.852021
    },
    "ARMAÇÃO":{
-      "latitude":123,
-      "longitude":456
+      "latitude":-23.738563,
+      "longitude":-45.345522
    },
    "PINTO":{
-      "latitude":123,
-      "longitude":456
+      "latitude":-23.7417534,
+      "longitude":-45.3488123
    },
    "SINO":{
-      "latitude":123,
-      "longitude":456
+      "latitude":-23.7512281,
+      "longitude":-45.3491918
    },
    "SIRIÚBA":{
-      "latitude":123,
-      "longitude":456
+      "latitude":-23.7562251,
+      "longitude":-45.3503045
    },
    "VIANA":{
-      "latitude":123,
-      "longitude":456
+      "latitude":-23.7587605,
+      "longitude":-45.3510842
    },
    "BARREIROS NORTE":{
-      "latitude":123,
-      "longitude":456
+      "latitude":-23.7680454,
+      "longitude":-45.351765
    },
    "BARREIROS SUL":{
-      "latitude":123,
-      "longitude":456
+      "latitude":-23.773850,
+      "longitude":-45.353283
    },
    "SACO DA CAPELA":{
-      "latitude":123,
-      "longitude":456
+      "latitude":-23.7878912,
+      "longitude":-45.3590366
    },
    "ENGENHO D´ÁGUA":{
-      "latitude":123,
-      "longitude":456
+      "latitude":-23.7895981,
+      "longitude":-45.363493
    },
    "ITAQUANDUBA":{
-      "latitude":123,
-      "longitude":456
+      "latitude":-23.7990409,
+      "longitude":-45.3653317
    },
    "ITAGUAÇU":{
-      "latitude":123,
-      "longitude":456
+      "latitude":-23.802277,
+      "longitude":-45.365153
    },
    "PEREQUÊ":{
-      "latitude":123,
-      "longitude":456
+      "latitude":-23.807339,
+      "longitude":-45.365537
    },
    "ILHA DAS CABRAS":{
-      "latitude":123,
-      "longitude":456
+      "latitude":-23.517425,
+      "longitude":-45.04132
    },
    "PORTINHO":{
-      "latitude":123,
-      "longitude":456
+      "latitude":-23.844713,
+      "longitude":-45.4043466
    },
    "FEITICEIRA":{
-      "latitude":123,
-      "longitude":456
+      "latitude":-23.8457052,
+      "longitude":-45.4090321
    },
    "JULIÃO":{
-      "latitude":123,
-      "longitude":456
+      "latitude":-23.8543633,
+      "longitude":-45.414251
    },
    "CURRAL":{
-      "latitude":123,
-      "longitude":456
+      "latitude":-23.8671494,
+      "longitude":-45.432225
    },
    "VELOSO":{
-      "latitude":123,
-      "longitude":456
+      "latitude":-23.8706143,
+      "longitude":-45.4354013
    },
    "PRAIA DA DIVISA":{
-      "latitude":123,
-      "longitude":456
+      "latitude":-23.969832,
+      "longitude":-46.340596
    },
    "ITARARÉ-POSTO 2":{
-      "latitude":123,
-      "longitude":456
+      "latitude":-23.9702685,
+      "longitude":-46.3619567
    },
    "PRAIA DA ILHA PORCHAT":{
-      "latitude":123,
-      "longitude":456
+      "latitude":-23.977128,
+      "longitude":-46.370187
    },
    "MILIONÁRIOS":{
-      "latitude":123,
-      "longitude":456
+      "latitude":-23.9759185,
+      "longitude":-46.3716167
    },
    "GONZAGUINHA":{
-      "latitude":123,
-      "longitude":456
+      "latitude":-23.970166,
+      "longitude":-46.3826251
    },
    "BORACÉIA - COLÉGIO MARISTA":{
-      "latitude":123,
-      "longitude":456
+      "latitude":-23.7562271,
+      "longitude":-45.8347962
    },
    "GUARATUBA":{
-      "latitude":123,
-      "longitude":456
+      "latitude":-23.7753812,
+      "longitude":-45.9458956
    },
    "SÃO LOURENÇO-PROX. MORRO":{
-      "latitude":123,
-      "longitude":456
+      "latitude":-23.798312,
+      "longitude":-46.004470
    },
    "SÃO LOURENÇO-RUA 2":{
-      "latitude":123,
-      "longitude":456
+      "latitude":-23.803515,
+      "longitude":-46.0218247
    },
    "ENSEADA-INDAIÁ":{
-      "latitude":123,
-      "longitude":456
+      "latitude":-23.798312,
+      "longitude":-46.004470
    },
    "ENSEADA-VISTA LINDA":{
-      "latitude":123,
-      "longitude":456
+      "latitude":-23.8225301,
+      "longitude":-46.0918001
    },
    "ENSEADA-COL. SESC":{
-      "latitude":123,
-      "longitude":456
+      "latitude":-23.835073,
+      "longitude":-46.117509
    },
    "ENSEADA-R. R. COSTABILI":{
-      "latitude":123,
-      "longitude":456
+      "latitude":-23.847293,
+      "longitude":-46.131873
    },
    "IPORANGA":{
-      "latitude":123,
-      "longitude":456
+      "latitude":-23.9027533,
+      "longitude":-46.1526424
    },
    "PERNAMBUCO":{
-      "latitude":123,
-      "longitude":456
+      "latitude":-23.965453,
+      "longitude":-46.1852163
    },
    "ENSEADA-ESTR. PERNAMBUCO":{
-      "latitude":123,
-      "longitude":456
+      "latitude":-23.988329,
+      "longitude":-46.205054
    },
    "ENSEADA-AV. ATLÂNTICA":{
-      "latitude":123,
-      "longitude":456
+      "latitude":-23.985736,
+      "longitude":-46.220602
    },
    "ENSEADA-R. CHILE":{
-      "latitude":123,
-      "longitude":456
+      "latitude":-23.987601,
+      "longitude":-46.231491
    },
    "ENSEADA-AV. SANTA MARIA":{
-      "latitude":123,
-      "longitude":456
+      "latitude":-23.990963,
+      "longitude":-46.243980
    },
    "PITANGUEIRAS-AV. PUGLISI":{
-      "latitude":123,
-      "longitude":456
+      "latitude":-23.997221,
+      "longitude":-46.255442
    },
    "PITANGUEIRAS-R. S. VALADÃO":{
-      "latitude":123,
-      "longitude":456
+      "latitude":-24.000453,
+      "longitude":-46.262593
    },
    "ASTÚRIAS":{
-      "latitude":123,
-      "longitude":456
+      "latitude":-24.0071716,
+      "longitude":-46.2684638
    },
    "TOMBO":{
-      "latitude":123,
-      "longitude":456
+      "latitude":-24.0143011,
+      "longitude":-46.2729686
    },
    "GUAIÚBA":{
-      "latitude":123,
-      "longitude":456
+      "latitude":-24.0166837,
+      "longitude":-46.2910946
    },
    "RIO PEREQUÊ":{
-      "latitude":123,
-      "longitude":456
+      "latitude":-23.846841,
+      "longitude":-46.357599
    },
    "PONTA DA PRAIA":{
-      "latitude":123,
-      "longitude":456
+      "latitude":-23.9821374,
+      "longitude":-46.2999354
    },
    "APARECIDA":{
-      "latitude":123,
-      "longitude":456
+      "latitude":-23.9735381,
+      "longitude":-46.3055176
    },
    "EMBARÉ":{
-      "latitude":123,
-      "longitude":456
+      "latitude":-23.9681658,
+      "longitude":-46.3134759
    },
    "BOQUEIRÃO":{
-      "latitude":123,
-      "longitude":456
+      "latitude":-23.9648026,
+      "longitude":-46.3235849
    },
    "GONZAGA":{
-      "latitude":123,
-      "longitude":456
+      "latitude":-23.9673822,
+      "longitude":-46.3328146
    },
    "JOSÉ MENINO-R. OLAVO BILAC":{
-      "latitude":123,
-      "longitude":456
+      "latitude":-23.969760,
+      "longitude":-46.342307
    },
    "JOSÉ MENINO-R. FRED. OZANAN":{
-      "latitude":123,
-      "longitude":456
+      "latitude":-23.968715,
+      "longitude":-46.348472
    },
    "CANTO DO FORTE":{
-      "latitude":123,
-      "longitude":456
+      "latitude":-24.0120485,
+      "longitude":-46.404064
    },
    "GUILHERMINA":{
-      "latitude":123,
-      "longitude":456
+      "latitude":-24.0073789,
+      "longitude":-46.4226974
    },
    "AVIAÇÃO":{
-      "latitude":123,
-      "longitude":456
+      "latitude":-24.0169913,
+      "longitude":-46.4455185
    },
    "VILA TUPI":{
-      "latitude":123,
-      "longitude":456
+      "latitude":-24.021681,
+      "longitude":-46.457018
    },
    "OCIAN":{
-      "latitude":123,
-      "longitude":456
+      "latitude":-24.0251209,
+      "longitude":-46.4774428
    },
    "VILA MIRIM":{
-      "latitude":123,
-      "longitude":456
+      "latitude":-24.02336,
+      "longitude":-46.4941806
    },
    "MARACANÃ":{
-      "latitude":123,
-      "longitude":456
+      "latitude":-24.040280,
+      "longitude":-46.499774
    },
    "VILA CAIÇARA":{
-      "latitude":123,
-      "longitude":456
+      "latitude":-24.0489156,
+      "longitude":-46.5281121
    },
    "REAL":{
-      "latitude":123,
-      "longitude":456
+      "latitude":-24.0659581,
+      "longitude":-46.5638183
    },
    "FLÓRIDA":{
-      "latitude":123,
-      "longitude":456
+      "latitude":-24.0710593,
+      "longitude":-46.5740407
    },
    "JARDIM SOLEMAR":{
-      "latitude":123,
-      "longitude":456
+      "latitude":-24.080176,
+      "longitude":-46.5925567
    },
    "VILA SÃO PAULO":{
-      "latitude":123,
-      "longitude":456
+      "latitude":-24.0925789,
+      "longitude":-46.6121592
    },
    "CENTRAL":{
-      "latitude":123,
-      "longitude":456
+      "latitude":-24.099172,
+      "longitude":-46.625582
    },
    "VERA CRUZ":{
-      "latitude":123,
-      "longitude":456
+      "latitude":-24.1098654,
+      "longitude":-46.6466704
    },
    "SANTA EUGÊNIA":{
-      "latitude":123,
-      "longitude":456
+      "latitude":-24.119183,
+      "longitude":-46.665201
    },
    "ITAÓCA":{
-      "latitude":123,
-      "longitude":456
+      "latitude":-24.122118,
+      "longitude":-46.670831
    },
    "AGENOR DE CAMPOS":{
-      "latitude":123,
-      "longitude":456
+      "latitude":-24.1338526,
+      "longitude":-46.6927797
    },
    "FLÓRIDA MIRIM":{
-      "latitude":123,
-      "longitude":456
+      "latitude":-24.1353431,
+      "longitude":-46.7039832
    },
    "CAMPOS ELÍSEOS":{
-      "latitude":123,
-      "longitude":456
+      "latitude":-24.150450,
+      "longitude":-46.722034
    },
    "JARDIM SUARÃO":{
-      "latitude":123,
-      "longitude":456
+      "latitude":-24.158137,
+      "longitude":-46.7393871
    },
    "SUARÃO - AFPESP":{
-      "latitude":123,
-      "longitude":456
+      "latitude":-24.166198,
+      "longitude":-46.750029
    },
    "PARQUE BALNEÁRIO":{
-      "latitude":123,
-      "longitude":456
+      "latitude":-24.169299,
+      "longitude":-46.755944
    },
    "PRAIA DOS PESCADORES":{
-      "latitude":123,
-      "longitude":456
+      "latitude":-24.1920347,
+      "longitude":-46.7968369
    },
    "SONHO":{
-      "latitude":123,
-      "longitude":456
+      "latitude":-24.1921563,
+      "longitude":-46.802283
    },
    "JARDIM CIBRATEL":{
-      "latitude":123,
-      "longitude":456
+      "latitude":-24.2009894,
+      "longitude":-46.8242994
    },
    "ESTÂNCIA BALNEÁRIA":{
       "latitude":123,
