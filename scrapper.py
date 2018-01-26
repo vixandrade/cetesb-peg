@@ -60,13 +60,11 @@ def get_info(soup, period, regions):
                 micro['beach'] = row.findAll('td')[0].get_text().strip()
                 micro['local'] = row.findAll('td')[1].get_text().strip()
                 micro['quality'] = row.findAll('td')[2].get_text().strip()
-                microloc[micro['beach']] = {"latitude": 123, "longitude": 456}
                 print(f"  + {micro['beach']} ({micro['local']}) => {micro['quality']}")
                 document = {'macro':macro['name'], 'micro':micro['name'], 'beach':micro['beach'], 'local':micro['local'], 'quality':micro['quality']}
                 documents.append(document)
             print("\n")
     print('------------------------------')
-    print(microloc)
     main(soup, period, regions, documents)
 
 def send_info(documents):
