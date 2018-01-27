@@ -4,6 +4,7 @@ import pandas as pd
 import pymongo
 from pymongo import MongoClient
 import secret
+import locations2 as lc
 
 def main(soup, period, regions, documents):
     if soup == None:
@@ -49,7 +50,6 @@ def get_regions(soup, period):
 
 def get_info(soup, period, regions):
     documents = []
-    microloc = {}
     print("REGIÕES:")
     for macro in regions:
         print(f"\n>> {macro['name']} <<")
@@ -60,8 +60,8 @@ def get_info(soup, period, regions):
                 micro['beach'] = row.findAll('td')[0].get_text().strip()
                 micro['local'] = row.findAll('td')[1].get_text().strip()
                 micro['quality'] = row.findAll('td')[2].get_text().strip()
-                print(f"  + {micro['beach']} ({micro['local']}) => {micro['quality']}")
-                document = {'macro':macro['name'], 'micro':micro['name'], 'beach':micro['beach'], 'local':micro['local'], 'quality':micro['quality']}
+                print(f"  + {micro['beach']} {lc.locations[micro['beach']]} ({micro['local']}) => {micro['quality']}")
+                document = {'macro':macro['name'], 'micro':micro['name'], 'beach':micro['beach'], 'local':micro['local'], 'quality':micro['quality'], 'loc' : { 'type': "Point", 'coordinates': [ lc.locations[micro['beach']]['longitude'], lc.locations[micro['beach']]['latitude'] ] }}
                 documents.append(document)
             print("\n")
     print('------------------------------')

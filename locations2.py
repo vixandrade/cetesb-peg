@@ -1,4 +1,4 @@
-{
+locations = {
    "PICINGUABA":{
       "latitude":-23.3779954,
       "longitude":-44.838049
