@@ -3,6 +3,9 @@ var mongoose = require('mongoose')
 var Schema = mongoose.Schema
 
 var RegionSchema = new Schema({
+  _id: {
+    type: String
+  },
   macro: {
     type: String
   },
