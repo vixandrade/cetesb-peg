@@ -1,7 +1,6 @@
-'use strict';
-var mongoose = require('mongoose');
-var Schema = mongoose.Schema;
-
+'use strict'
+var mongoose = require('mongoose')
+var Schema = mongoose.Schema
 
 var RegionSchema = new Schema({
   macro: {
@@ -19,6 +18,6 @@ var RegionSchema = new Schema({
   quality: {
     type: String
   }
-});
+})
 
-module.exports = mongoose.model('Region', RegionSchema);
+module.exports = mongoose.model('Region', RegionSchema)
