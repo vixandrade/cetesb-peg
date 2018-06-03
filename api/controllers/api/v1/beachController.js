@@ -28,14 +28,8 @@ exports.index = function (req, res) {
         macroRegions[macro][micro].push(beach)
       })
 
-      resp = {
-        regions: macroRegions
-      }
-    } else {
-      resp = {
-        regions: regions
-      }
-    }
+      resp = macroRegions
+    } else { resp = regions }
 
     res.json(resp)
   })
@@ -53,9 +47,7 @@ exports.macroRegions = function (req, res) {
     if (err) { res.status(500).send(err) }
 
     var macroRegions = regions.map(beach => beach['macro']).filter((macro, pos, arr) => arr.indexOf(macro) === pos)
-    var resp = {
-      regions: macroRegions
-    }
+    var resp = macroRegions
 
     res.json(resp)
   })
@@ -78,13 +70,9 @@ exports.microRegions = function (req, res) {
         }
       })
 
-      resp = {
-        regions: macroRegions
-      }
+      resp = macroRegions
     } else {
-      resp = {
-        regions: regions.map(beach => beach['micro']).filter((micro, pos, arr) => arr.indexOf(micro) === pos)
-      }
+      resp = regions.map(beach => beach['micro']).filter((micro, pos, arr) => arr.indexOf(micro) === pos)
     }
 
     res.json(resp)
